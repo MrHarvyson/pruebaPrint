@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /appcd
 
 # Copiar el JAR al contenedor
-COPY target/PrintMay-1.0.jar PrintMay-1.0.jar
+COPY PrintMay-1.0.jar PrintMay-1.0.jar
 
 # Deja el contenedor en una shell por defecto
 ENTRYPOINT ["/bin/sh"]
